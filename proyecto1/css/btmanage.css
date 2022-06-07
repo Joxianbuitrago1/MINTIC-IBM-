@@ -1,0 +1,82 @@
+*{
+    background:black;
+}
+
+/* ojo menu de navegacion*/
+#navbarNavAltMarkup {
+    justify-content: right;
+    font-size: 30px;
+    display:inline-flex;
+    margin-top: -150px;
+    
+}
+
+
+/* ojo esta es la barra de menu y search juntas*/
+
+.navbar {
+    margin-right: 100px;
+    margin-right:40px;
+    margin-top: 0px;
+    justify-content:right;  
+    padding:-100px;
+    font-weight:bolder;
+}
+
+.navbar :hover {
+    color: rgb(227, 224, 224);
+    transition: 0.5s;
+    transform: translateY(-7%);
+}
+
+/*esta es la barra de search*/
+.form-control {
+    margin:50px;
+    margin-bottom:10px;
+    margin-left: 0px;
+    margin-top: -150px;
+    
+}
+
+.form-control mr-sm-2 {
+    border-color: solid 5px rgb(13, 130, 151);
+}
+.navbar-brand {
+    margin:50px;
+    margin-bottom:10px;
+    margin-left: 0px;
+    margin-top: -270px;
+}
+
+.btn  {
+    color: rgb(227, 224, 224);
+    background:rgb(13, 13, 151);
+    font-weight:bolder;
+    border:1px solid white;
+
+}
+
+.btn:hover {
+    color: rgb(227, 224, 224);
+    background:black;
+    border:2px solid rgb(13, 13, 151);
+}
+
+/*Aqui empiza la seccion2*/
+
+.cover {
+    background-image:url("/proyecto1/img/cover.jpg");
+    width: 1524px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.p1 {
+    margin-top: 100px;
+    color:white;
+    position:relative;
+    background: none;
+    text-align:center;
+    font-size:25px;
+}
+
